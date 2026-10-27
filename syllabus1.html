@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>syllabus page1</title>
+    <style>
+        .subscribe-container {
+            position: relative;
+        }
+
+        .floating-emoji {
+            position: absolute;
+            left: 90%;
+
+            bottom: 100%;
+            transform: translateX(-50%);
+            font-size: 1.5rem;
+            pointer-events: none;
+            animation: floatUp 0.6s ease-out forwards;
+        }
+
+        @keyframes floatUp {
+            0% {
+                opacity: 1;
+                transform: translate(-50%, 0) scale(0.8);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translate(-50%, -50px) scale(1.2);
+            }
+        }
+    </style>
+
+</head>
+
+<body style="background-color: #6b6039; color:#ffffff">
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;" data-bs-theme="light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-book-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+                </svg>Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"
+                    style="background-image: url(&quot;data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e&quot;);"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="webpage1.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="webpage2.html">Eligibility</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="webpage3.html">Syllabus & Exam</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            contact
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="feedback.html">Feedback or Complaints</a></li>
+                            
+                            <li><a class="dropdown-item" href="asked_questons.html">Frequentely asked questions</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg>
+
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center mt-5"><mark style="color:#5c5330;">Syllabus of Prelimary exam</mark></h1>
+    <div class="container">
+        <table class="table table-bordered  mt-5  mb-10 text-white  text-center">
+            <thead>
+                <tr>
+                    <th scope="col">Paper</th>
+                    <th scope="col">Subject</th>
+                    <th scope="col">Questions</th>
+                    <th scope="col">Marks</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Nature</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Paper I</th>
+                    <td>General studies</td>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>2 hours</td>
+                    <td>Merit(Ranking)</td>
+
+
+
+                </tr>
+                <tr>
+                    <th scope="row">Paper II</th>
+                    <td>CSAT(Aptitude)</td>
+                    <td>80</td>
+                    <td>200</td>
+                    <td>2 hours</td>
+                    <td>Qualifying only (min 33%)</td>
+
+
+                </tr>
+                <tr>
+                    <th scope="row">Total</th>
+                    <td>---</td>
+                    <td>180</td>
+                    <td>400</td>
+                    <td>4 hours</td>
+                    <td>---</td>
+
+
+
+                </tr>
+
+
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+        <h2 class="  mt-3"><mark style="background-color:#5c5330;  color:antiquewhite"> Paper I- General Studie:
+                subjects covered</mark></h2>
+        <ul type="circle">
+            <h5>
+                <li>History of India an Maharashtra.</li>
+                <li>Geography of India and Maharashrta.</li>
+                <li>Indian Polity and Governance.</li>
+                <li>Economic and Social Development.</li>
+                <li>General Science.</li>
+
+                <br>
+                <h2 class="  mt-5"><mark style="background-color:#5c5330;  color:antiquewhite"> Paper II- CSAT:subjects
+                        covered</mark></h2>
+                <ul type="circle">
+                    <h5>
+                        <li>Comprehension (reading passages).</li>
+                        <li>Logical reasoning and analytical ability.</li>
+                        <li>Decision Making and Problem Solving.</li>
+                        <li>Basic numeracy and data interpretation.</li>
+                        <li>Interpersonal skills including communication.</li>
+                    </h5>
+
+                </ul>
+
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+
+
+    </div>
+
+
+    <div class="container">
+        <h2 class="  mt-4"><mark style="background-color:#5c5330;  color:antiquewhite">Recommended Books for Prelimary
+                Exam</mark></h2>
+        <table class="table table-bordered mt-3 mb-10 text-white text-center">
+            <thead>
+                <tr>
+                    <th scope="col">Subject</th>
+                    <th scope="col">Recommended Book</th>
+                    <th scope="col">Author/Publisher</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Indian Polity</th>
+                    <td>Indian polity</td>
+                    <td>M.Laxmikant</td>
+                </tr>
+                <tr>
+                    <th scope="row">Geography</th>
+                    <td>Geography of India</td>
+                    <td>Majid Husain</td>
+                </tr>
+                <tr>
+                    <th scope="row">Geography(Maps)</th>
+                    <td>Oxford Student Atlas for India</td>
+                    <td>Oxford</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">General Science</th>
+                    <td>Lucent's General Science</td>
+                    <td>Lucent Publications</td>
+                </tr>
+                <tr>
+                    <th scope="row">History (Maharashtra Focus)</th>
+                    <td>MPSC Rajyaseva Prelimes Guide</td>
+                    <td>MPSC Mantra/Target Publicatins</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">Maharashtra-specific GK</th>
+                    <td>Maharashtra GK Combo</td>
+                    <td>Unique Academy</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">English Grammer</th>
+                    <td>High School English Grammer & Compoition</td>
+                    <td>Wren and Martin</td>
+
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <h2 class="text-white mt-4"><mark style="background-color:#5c5330;  color:antiquewhite">Recommended Books for
+                CSAT Exam</mark></h2>
+        <table class="table table-bordered mt-3 mb-10 text-white text-center">
+            <thead>
+                <tr>
+                    <th scope="col">Subject</th>
+                    <th scope="col">Recommended Book</th>
+                    <th scope="col">Author/Publisher</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Comprehension</th>
+                    <td>Verbal and Non-Verbal Reasoning</td>
+                    <td>R.S. Aggarwal</td>
+                </tr>
+                <tr>
+                    <th scope="row">Logical Reasoning</th>
+                    <td>Analytical Reasoning</td>
+                    <td>M.K. Pandey</td>
+                </tr>
+                <tr>
+                    <th scope="row">Decision Making & Problem Solving</th>
+                    <td>How to Prepare for Logical Reasoning for CAT</td>
+                    <td>Arihant Publications</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">Basic Numeracy & Data Interpretation</th>
+                    <td>Quantitative Aptitude for Competitive Examinations</td>
+                    <td>R.S. Aggarwal</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+
+
+    </div>
+    <br>
+
+
+    <footer class="bd-footer  py-4 py-md-5 mt-5 border-top border-3 shadow-sm"
+        style="background-color:#8a7f50 !important;">
+
+        <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+            <div class="row">
+                <div class="col-lg-3 mb-3"> <a
+                        class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none"
+                        href="home.html" aria-label="MPSC Guide"> <svg xmlns="http://www.w3.org/2000/svg" width="30"
+                            height="30" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                            <path
+                                d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+                        </svg>
+                        <title>MPSC Guide</title>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
+                            fill="currentColor"></path>
+                        </svg> <span class="fs-5">MPSC Guide</span>
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">
+                            Designed and built by Pranali Nanaso Panhale and Sanika Sandip Panage.
+                            with the help of Boostrap.
+
+
+                            This is college project website build under the guidence of subject teacher Bhagat sir.
+
+
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="home.html">Home</a></li>
+                        <li class="mb-2"><a href="webpage1.html">Categories</a></li>
+                        <li class="mb-2"><a href="webpage2.html">Eligibility</a></li>
+                        <li class="mb-2"><a href="webpage3.html">Syllabus & Exam</a></li>
+                        <li class="mb-2"><a href="webpage4.html">contact</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe to our Website</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="subscribe-container d-flex flex-column flex-sm-row w-100 gap-2 position-relative">
+                            <input id="subscriberEmail" type="email" class="form-control" placeholder="Email address">
+                            <button id="subscribeBtn" class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('subscribeBtn').addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const emailInput = document.getElementById('subscriberEmail');
+            const container = this.closest('.subscribe-container');
+
+
+            if (emailInput.value.trim() === '') {
+                emailInput.focus();
+                return;
+            }
+
+
+            const emoji = document.createElement('div');
+            emoji.className = 'floating-emoji';
+            emoji.textContent = '❤️';
+
+            container.appendChild(emoji);
+
+
+            setTimeout(() => {
+                emoji.remove();
+                emailInput.value = '';
+            }, 800);
+        });
+    </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+</body>
+
+</html>
